@@ -23,11 +23,6 @@ public class BootStrapData implements CommandLineRunner {
         this.publisherRepository = publisherRepository;
     }
 
-//    @Override
-//    public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
-//        initData();
-//    }
-
     @Override
     public void run(String... args) throws Exception {
         Author eric = new Author("Eric", "Evans");
